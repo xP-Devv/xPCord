@@ -1,6 +1,7 @@
 {
   "buildCommand": "npm run build:shared && npm run build:client",
   "outputDirectory": "client/dist/renderer",
+  "framework": "other",
   "rewrites": [
     {
       "source": "/(.*)",
